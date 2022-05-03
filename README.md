@@ -13,4 +13,6 @@ You can read the full disclaimer [here](https://github.com/X-Legendary/Web-Termi
 
 ## WIP
 This project is work in progress. If you find want, feel free to contribute aswell as report any issues.
+
+You can find the [TODO list](https://github.com/X-Legendary/Web-Terminal/blob/main/docs/TODO.md) of things that need to be done.
  
