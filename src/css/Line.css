@@ -1,0 +1,10 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+    --green: #20C20E; /* Hackerman green :0 */
+    --bg: black
+}
+#lines > li {
+    margin-top: 0.5rem;
+    color: var(--green);
+    padding: 0.0625rem 1rem;
+}

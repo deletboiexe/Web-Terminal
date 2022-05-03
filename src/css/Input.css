@@ -1,0 +1,14 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+    --green: #20C20E; /* Hackerman green :0 */
+    --bg: black
+}
+#cmdinput {
+    border: none; 
+    padding: 0 1rem;
+    color: var(--green);
+    background-color: var(--bg);
+    flex-grow: 1; 
+    margin: 0.25rem;
+}
+#cmdinput:focus { outline: none;}

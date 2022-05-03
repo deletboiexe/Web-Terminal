@@ -1,0 +1,10 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+    --green: #20C20E; /* Hackerman green :0 */
+    --bg: black
+}
+.commandLine {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+}

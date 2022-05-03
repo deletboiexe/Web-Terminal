@@ -1,0 +1,54 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+    --green: #20C20E; /* Hackerman green :0 */
+    --bg: black
+}
+body {
+    background-color: var(--bg);
+    margin: 0;
+    padding-bottom: 3rem;
+}
+#form {
+    background: var(--bg);
+    padding: 0.25rem;
+    position:fixed; 
+    bottom: 0; 
+    left: 0; right: 0; 
+    display: flex; 
+    height: 3rem; 
+    box-sizing: border-box; 
+    backdrop-filter: blur(10px); 
+}
+#cmdinput {
+    border: none; 
+    padding: 0 1rem;
+    color: var(--green);
+    background-color: var(--bg);
+    flex-grow: 1; 
+    margin: 0.25rem;
+}
+#cmdinput:focus { outline: none;}
+/* Selection */
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: var(--green);
+}
+::selection {
+    color: white;
+    background: var(--green);
+}
+/* Scrollbar */
+::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb
+{
+    display: none;
+}
+#lines {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+}
+#lines > li {
+    margin-top: 0.5rem;
+    color: var(--green);
+    padding: 0.0625rem 1rem;
+}
